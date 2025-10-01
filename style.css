@@ -1,0 +1,64 @@
+/* (L'asterisco prende tutto dell'html) */
+*{
+    border: solid red 1px;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.child{
+    /* width: 400px; */
+    min-width: 50px;
+    /* height: 300px; */
+}
+
+.height-100{
+    height: 100px;
+}
+
+.height-200{
+    height: 200px;
+}
+
+.height-300{
+    height: 300px;
+}
+
+/* (La proprietà order permette di decidere l’ordine di allineamento degli elementi, cioè l’ordine in cui viene mostrato un box contenitore rispetto agli altri definiti nello stesso contenitore padre.) */
+.order{
+    order: -1;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.double-grow{
+    flex-grow: 3;
+
+}
+.parent{
+    /* (il flex si da ai "papà", non ai "figli", perchè lui è chi commanda) */
+    display: flex;
+    /* ("row" sta per "in riga") */
+    /* (il flex consente di comprimere gli elementi al di là del loro contenuto) */
+    /* (quando il contenuto non è più contenibile, il flex va in overflow per questo si usa il flex-wrap) */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* (per allienare verso la fine del "papà" usare flex-end) */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    height: 600px;
+    /* (per allineare gli elementi in basso usare il flex end e center in centro) */
+    /* align-items: center; */
+    align-content: center;
+    /* (per staccare-separare gli elementi tra di se usare gap) */
+    gap: 20px 40px;
+    /* row-gap: 20px;
+    column-gap: 40px; */ 
+}
