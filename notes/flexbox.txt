@@ -1,0 +1,63 @@
+
+Display flexbox
+
+La proprietà display: flex; è una delle proprietà più importanti del CSS per creare layout flessibili e responsivi. 
+Quando si applica display: flex; a un elemento, questo diventa un contenitore flessibile, e i suoi figli diventano elementi flessibili.
+Il layout flexbox consente di allineare e distribuire gli elementi in modo efficiente, sia in orizzontale che in verticale.
+
+Con flexbox, è possibile controllare l'allineamento, la direzione e l'ordine degli elementi all'interno del contenitore, 
+rendendo più facile creare layout complessi senza dover utilizzare float (cioè galleggiamento) o posizioni assolute.
+
+Alcune delle proprietà più comuni di flexbox includono: 
+- flex-direction: specifica la direzione degli elementi (row, column, row-reverse, column-reverse)
+- justify-content: allinea gli elementi lungo l'asse principale (flex-start, flex-end, center, space-between, space-around)
+- align-items: allinea gli elementi lungo l'asse trasversale (flex-start, flex-end, center, baseline, stretch)
+- flex-wrap: specifica se gli elementi devono andare a capo o rimanere su una sola riga (nowrap, wrap, wrap-reverse)
+
+Flexbox è particolarmente utile per creare layout responsive, poiché consente agli elementi di adattarsi alle dimensioni del contenitore,
+ rendendo più facile la progettazione di siti web che funzionano bene su diversi dispositivi e schermi.
+
+
+---------------------------------------------------------------------
+
+Alcune proprietà di flexbox che abbiamo visto durante la lezione includono:
+
+- order: questa proprietà consente di modificare l'ordine degli elementi all'interno del contenitore flex. 
+Gli elementi con un valore di order più basso appariranno prima rispetto a quelli con un valore più alto.
+
+- flex-grow: questa proprietà specifica quanto un elemento flessibile dovrebbe crescere rispetto agli altri elementi all'interno del contenitore. 
+Un valore di flex-grow più alto indica che l'elemento dovrebbe occupare più spazio disponibile rispetto agli altri elementi.
+
+- flex-direction: questa proprietà specifica la direzione degli elementi all'interno del contenitore flex. 
+I valori possibili sono row (gli elementi vengono disposti in una riga), column (gli elementi vengono disposti in una colonna), 
+row-reverse (gli elementi vengono disposti in una riga ma in ordine inverso) e column-reverse (gli elementi vengono disposti in una colonna ma in ordine inverso).
+
+- flex-wrap: questa proprietà specifica se gli elementi all'interno del contenitore flex devono andare a capo o rimanere su una sola riga.
+I valori possibili sono nowrap (gli elementi rimangono su una sola riga), wrap (gli elementi vanno a capo se necessario) 
+e wrap-reverse (gli elementi vanno a capo ma in ordine inverso).
+
+- justify-content: questa proprietà specifica come gli elementi all'interno del contenitore flex devono essere allineati lungo l'asse principale.
+L'asse principale dipende dalla direzione specificata con flex-direction. Ad esempio, se flex-direction è impostato su row, l'asse principale sarà orizzontale, 
+mentre se flex-direction è impostato su column, l'asse principale sarà verticale.
+I valori possibili sono flex-start (gli elementi vengono allineati all'inizio del contenitore), flex-end (gli elementi vengono allineati alla fine del contenitore), 
+center (gli elementi vengono centrati all'interno del contenitore), space-between (gli elementi vengono distribuiti con spazi uguali tra di loro), 
+space-around (gli elementi vengono distribuiti con spazi uguali intorno a ciascun elemento), space-evenly (gli elementi vengono distribuiti con spazi uguali tra di loro e ai bordi del contenitore).
+
+- align-content: questa proprietà specifica come le linee di elementi all'interno del contenitore flex devono essere allineate lungo l'asse trasversale.
+L'asse trasversale è perpendicolare all'asse principale. Ad esempio, se flex-direction è impostato su row, l'asse trasversale sarà verticale, mentre se flex-direction è impostato su column, l'asse trasversale sarà orizzontale.
+I valori possibili sono flex-start (le linee vengono allineate all'inizio del contenitore), flex-end (le linee vengono allineate alla fine del contenitore), center (le linee vengono centrate all'interno del contenitore), 
+space-between (le linee vengono distribuite con spazi uguali tra di loro), space-around (le linee vengono distribuite con spazi uguali intorno a ciascuna linea), 
+stretch (le linee vengono allungate per occupare tutto lo spazio disponibile).
+
+- align-items: questa proprietà specifica come gli elementi all'interno del contenitore flex devono essere allineati lungo l'asse trasversale.
+I valori possibili sono flex-start (gli elementi vengono allineati all'inizio del contenitore), flex-end (gli elementi vengono allineati alla fine del contenitore), center (gli elementi vengono centrati all'interno del contenitore), 
+baseline (gli elementi vengono allineati alla linea di base del testo) e stretch (gli elementi vengono allungati per occupare tutto lo spazio disponibile).
+
+- flex-basis: questa proprietà specifica la dimensione iniziale di un elemento flessibile prima che venga distribuito lo spazio disponibile.
+Può essere espresso in unità di misura come pixel, percentuale o auto. Se impostato su auto, la dimensione iniziale dell'elemento sarà basata sul suo contenuto.
+
+- flex-shrink: questa proprietà specifica quanto un elemento flessibile dovrebbe ridursi rispetto agli altri elementi all'interno del contenitore.
+Un valore di flex-shrink più alto indica che l'elemento dovrebbe ridursi più rispetto agli altri elementi quando lo spazio disponibile è limitato.
+
+- gap: questa proprietà specifica la distanza tra gli elementi all'interno del contenitore flex.
+Può essere espresso in unità di misura come pixel o em. La proprietà gap è particolarmente utile per creare spaziatura uniforme tra gli elementi senza dover utilizzare margini o padding.

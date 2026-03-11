@@ -26,9 +26,10 @@ html, body{
     height: 300px;
 }
 
-/* (La proprietà order permette di decidere l’ordine di allineamento degli elementi, cioè l’ordine in cui viene mostrato un box contenitore rispetto agli altri definiti nello stesso contenitore padre.) */
+/* (La proprietà order permette di decidere l’ordine di allineamento degli elementi, 
+cioè l’ordine in cui viene mostrato un box contenitore rispetto agli altri definiti nello stesso contenitore padre.) */
 .order{
-    order: -1;
+    order: -1;   
 }
 
 .grow{
